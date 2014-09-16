@@ -7,17 +7,17 @@
 
 
 var Stack = function() {
-  this.results = [];
+  this.storage = [];
 };
 
 Stack.prototype.push = function(string) {
-  this.results.push(string);
+  this.storage.push(string);
 };
 
 Stack.prototype.pop = function() {
-  return this.results.pop();
+  return this.storage.pop();
 };
 
 Stack.prototype.size = function() {
-  return this.results.length;
+  return this.storage.length;
 };
