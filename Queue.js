@@ -15,10 +15,9 @@ Queue.prototype.enqueue = function(string) {
 };
 
 Queue.prototype.dequeue = function() {
-  return this.storage.unshift();
+  return this.storage.shift();
 };
 
 Queue.prototype.size = function() {
-  return this.storage.size();
+  return this.storage.length;
 };
-
