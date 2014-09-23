@@ -1,4 +1,8 @@
 data-structures-js
 ==================
 
-repo for me to learn more about data structures
+repo for me to review my data structures
+
+
+### TODO
+* Add tests
